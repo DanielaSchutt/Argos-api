@@ -1,0 +1,14 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+
+/ArgosApi/.idea
+/ArgosApi/Argos.Authentication/bin
+/ArgosApi/Argos.Authentication/obj
+/ArgosApi/Argos.Data/bin
+/ArgosApi/Argos.Data/obj
+/ArgosApi/Argos.Domain/bin
+/ArgosApi/Argos.Domain/obj
+/ArgosApi/Argos.Service/bin
+/ArgosApi/Argos.Service/obj
+/ArgosApi/Argos.WebApi/bin
+/ArgosApi/Argos.WebApi/obj

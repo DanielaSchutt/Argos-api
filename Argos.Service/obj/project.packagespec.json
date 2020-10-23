@@ -1,0 +1,54 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Service\\Argos.Service.csproj",
+    "projectName": "Argos.Service",
+    "projectPath": "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Service\\Argos.Service.csproj",
+    "outputPath": "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Service\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Authentication\\Argos.Authentication.csproj": {
+            "projectPath": "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Authentication\\Argos.Authentication.csproj"
+          },
+          "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Data\\Argos.Data.csproj": {
+            "projectPath": "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Data\\Argos.Data.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
