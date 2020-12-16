@@ -31,7 +31,7 @@ namespace Argos.Service
         public async Task AddAsync(AlertaProvidencia obj)
         {
             var alerta = await this.AlertaRepository.GetByIdAsync(obj.AlertaId);
-            alerta.Status = 0;
+            alerta.Status = 2;
             obj.CriadoEm = DateTime.Now;
             base.Add(obj);
         }

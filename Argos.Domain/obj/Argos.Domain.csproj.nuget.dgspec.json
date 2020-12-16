@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Domain\\Argos.Domain.csproj": {}
+    "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.Domain\\Argos.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Domain\\Argos.Domain.csproj": {
+    "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.Domain\\Argos.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Domain\\Argos.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.Domain\\Argos.Domain.csproj",
         "projectName": "Argos.Domain",
-        "projectPath": "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Domain\\Argos.Domain.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.Domain\\Argos.Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Domain\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,10 +57,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

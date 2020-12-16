@@ -16,8 +16,18 @@ namespace Argos.Service
 
         public override void Add(CameraLog obj)
         {
+            TimeSpan diff = new TimeSpan();
+            var last = this.CameraLogRepository.GetLastInserted(obj);
             obj.CriadoEm = DateTime.Now;
-            base.Add(obj);
+            if (last != null)
+            {
+                diff = obj.CriadoEm - last.CriadoEm;
+
+            }
+            if (last == null || diff.TotalSeconds >= 60.00)
+            {
+                base.Add(obj);
+            }
         }
 
         public override void Update(CameraLog obj)

@@ -59,18 +59,18 @@ namespace Argos.Authentication
             return new JwtSecurityTokenHandler().WriteToken(novoToken);
         }
 
-        //public static int GetIdCliente (string token)
-        //{
-            //var handler = new JwtSecurityTokenHandler();
+        public static int GetId (string token)
+        {
+            var handler = new JwtSecurityTokenHandler();
 
-            //token = token.Replace("Bearer", "");
-            //token = token.Trim();
+            token = token.Replace("Bearer", "");
+            token = token.Trim();
 
-            //var tokenAntigo = handler.ReadToken(token) as JwtSecurityToken;
+            var tokenAntigo = handler.ReadToken(token) as JwtSecurityToken;
 
-            //var id = tokenAntigo.Claims.First(claim => claim.Type == "id").Value;
+            var id = tokenAntigo.Claims.First(claim => claim.Type == "id").Value;
 
-            //return Convert.ToInt32(id);
-        //}
+            return Convert.ToInt32(id);
+        }
     }
 }

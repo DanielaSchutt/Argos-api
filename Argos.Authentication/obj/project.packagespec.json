@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Authentication\\Argos.Authentication.csproj",
+    "projectUniqueName": "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.Authentication\\Argos.Authentication.csproj",
     "projectName": "Argos.Authentication",
-    "projectPath": "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Authentication\\Argos.Authentication.csproj",
-    "outputPath": "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Authentication\\obj\\",
+    "projectPath": "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.Authentication\\Argos.Authentication.csproj",
+    "outputPath": "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.Authentication\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

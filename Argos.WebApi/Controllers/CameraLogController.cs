@@ -42,7 +42,9 @@ namespace Argos.WebApi.Controllers
         [HttpPost]
         public async Task<IActionResult> AddAsync(CameraLog item)
         {
-            return await base._AddAsync(item);
+            this.Service.Add(item);
+            await _unitOfWork.Commit();
+            return HttpMessageOk("success");
         }
 
         [HttpPut("{id}")]

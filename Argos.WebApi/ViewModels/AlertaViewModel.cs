@@ -1,6 +1,7 @@
 using System;
 using System;
 using System.Collections.Generic;
+using Argos.Domain.UsuarioRoot;
 
 
 namespace Argos.WebApi.ViewModels
@@ -16,6 +17,8 @@ namespace Argos.WebApi.ViewModels
         public List<CameraLogViewModel> Logs { get; set; }
         public string Placa { get; set; }
         public string Area { get; set; }
+        public int UsuarioId { get; set; }
+        public Usuario Usuario { get; set; }
 
     }
 }

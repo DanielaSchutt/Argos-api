@@ -6,6 +6,7 @@ using Argos.Domain.TipoUsuarioRoot;
 using Argos.Domain.DispositivoRoot;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
+using Argos.Domain.AlertaRoot;
 
 
 namespace Argos.Domain.UsuarioRoot
@@ -23,6 +24,10 @@ namespace Argos.Domain.UsuarioRoot
         [NotMapped]
         public string Senha { get; set; }
         public string PasswordHash { get; set; }
+        public string TokenFirebase { get; set; }
+        public List<Alerta> Alertas { get; set; }
+        
+        public bool IsRevoked { get; set; }
 
     }
 }

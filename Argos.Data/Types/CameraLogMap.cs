@@ -36,6 +36,9 @@ namespace Argos.Data.Types
             builder.Property(i => i.CriadoEm)
                 .IsRequired()
                 .HasColumnName("criado_em");
+            
+            builder.Property(i => i.Status)
+                .HasColumnName("status");
 
         }
     }

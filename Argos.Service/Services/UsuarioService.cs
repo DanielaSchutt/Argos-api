@@ -41,7 +41,9 @@ namespace Argos.Service
            
             if (!CryptoPassword.VerifyPassword(user.PasswordHash, obj.Senha))
                 return null;
-            
+
+            user.TokenFirebase = obj.TokenFirebase;
+            base.Update(user);
 
             return user;
         }

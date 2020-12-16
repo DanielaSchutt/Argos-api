@@ -5,6 +5,7 @@ using System;
 using Argos.Domain.TipoAlertaRoot;
 using Argos.Domain.CameraLogRoot;
 using System.Collections.Generic;
+using Argos.Domain.UsuarioRoot;
 
 
 namespace Argos.Domain.AlertaRoot
@@ -19,8 +20,10 @@ namespace Argos.Domain.AlertaRoot
         public List<CameraLog> Logs { get; set; }
         public string Placa { get; set; }
         public string Area { get; set; }
-        
         public int Status { get; set; }
+        
+        public int? UsuarioId { get; set; }
+        public Usuario Usuario { get; set; }
 
     }
 }

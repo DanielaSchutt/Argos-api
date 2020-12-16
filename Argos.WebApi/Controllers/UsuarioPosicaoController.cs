@@ -1,10 +1,15 @@
+using System;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using Argos.Authentication;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Argos.Domain.UsuarioPosicaoRoot;
 using Argos.Domain.Interfaces.ServiceInterfaces;
 using Argos.Domain.Interfaces.RepositoryInterfaces;
+using Argos.Domain.UsuarioRoot;
 using Argos.WebApi.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Argos.WebApi.Controllers
 {
@@ -40,9 +45,18 @@ namespace Argos.WebApi.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddAsync(UsuarioPosicao item)
+        public async Task<IActionResult> AddAsync(Posicao item)
         {
-            return await base._AddAsync(item);
+            var usuarioId = TokenGenerator.GetId(this.GetTokenDefault());
+            var usuario = new UsuarioPosicao(
+            
+                DateTime.Now,
+                item.latitude,
+                item.longitude,
+                (long)usuarioId
+            );
+                
+            return await base._AddAsync(usuario);
         }
 
         [HttpPut("{id}")]

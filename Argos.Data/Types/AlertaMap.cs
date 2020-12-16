@@ -56,6 +56,11 @@ namespace Argos.Data.Types
             builder.Property(i => i.Area)
                 .HasMaxLength(500)
                 .HasColumnName("area");
+            builder.Property(i => i.UsuarioId)
+                .HasColumnName("usuario_id");
+            
+            builder.HasOne(i => i.Usuario)
+                .WithMany(i => i.Alertas);
 
         }
     }

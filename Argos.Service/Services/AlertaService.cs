@@ -2,6 +2,11 @@ using Argos.Domain.AlertaRoot;
 using Argos.Domain.Interfaces.RepositoryInterfaces;
 using Argos.Domain.Interfaces.ServiceInterfaces;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore.Query;
 
 namespace Argos.Service
 {
@@ -25,6 +30,6 @@ namespace Argos.Service
             
             base.Update(obj);
         }
-        
+
     }
 }

@@ -13,5 +13,13 @@ namespace Argos.Domain.UsuarioPosicaoRoot
         public double Longitude { get; set; }
         public double Latitude { get; set; }
 
+        public UsuarioPosicao(DateTime criadoEm, double latitude, double longitude, long usuarioId)
+        {
+            this.CriadoEm = criadoEm;
+            this.Latitude = latitude;
+            this.Longitude = longitude;
+            this.UsuarioId = usuarioId;
+        }
+
     }
 }

@@ -30,6 +30,7 @@ namespace Argos.Domain.AlertaRoot
                 .MaximumLength(500).WithMessage("O campo 'Area' aceita apenas 500 caracteres.");
 
             RuleFor(i => i.Status);
+            RuleFor(i => i.UsuarioId);
         }
     }
 }

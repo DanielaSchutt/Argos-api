@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Argos.WebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/alerta_providencia")]
     [ApiController]
     public class AlertaProvidenciaController : BaseController<AlertaProvidencia, AlertaProvidenciaViewModel>
     {

@@ -12724,11 +12724,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.WebApi\\Argos.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.WebApi\\Argos.WebApi.csproj",
       "projectName": "Argos.WebApi",
-      "projectPath": "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.WebApi\\Argos.WebApi.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.WebApi\\Argos.WebApi.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12747,14 +12747,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Authentication\\Argos.Authentication.csproj": {
-              "projectPath": "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Authentication\\Argos.Authentication.csproj"
+            "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.Authentication\\Argos.Authentication.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.Authentication\\Argos.Authentication.csproj"
             },
-            "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Data\\Argos.Data.csproj": {
-              "projectPath": "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Data\\Argos.Data.csproj"
+            "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.Data\\Argos.Data.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.Data\\Argos.Data.csproj"
             },
-            "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Service\\Argos.Service.csproj": {
-              "projectPath": "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Service\\Argos.Service.csproj"
+            "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.Service\\Argos.Service.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.Service\\Argos.Service.csproj"
             }
           }
         }

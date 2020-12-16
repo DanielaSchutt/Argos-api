@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\User\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\User\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\User\Documents\github\Argos-api" t="IncludeFlat">
+      <e p="Argos.Authentication" t="IncludeRecursive">
+        <e p="AccessLevel.cs" t="Include" />
+        <e p="Argos.Authentication.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CryptoPassword.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Argos.Authentication.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TokenGenerator.cs" t="Include" />
+      </e>
+      <e p="Argos.Data" t="IncludeRecursive">
+        <e p="Argos.Data.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Context" t="Include">
+          <e p="DataContext.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20200921225106_initialMigration.cs" t="Include" />
+          <e p="20200921225106_initialMigration.Designer.cs" t="Include" />
+          <e p="DataContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Argos.Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="AlertaProvidenciaRepository.cs" t="Include" />
+          <e p="AlertaRepository.cs" t="Include" />
+          <e p="BaseRepository.cs" t="Include" />
+          <e p="CameraLogRepository.cs" t="Include" />
+          <e p="CameraRepository.cs" t="Include" />
+          <e p="CidadeRepository.cs" t="Include" />
+          <e p="DispositivoRepository.cs" t="Include" />
+          <e p="EstadoRepository.cs" t="Include" />
+          <e p="TipoAlertaRepository.cs" t="Include" />
+          <e p="TipoUsuarioRepository.cs" t="Include" />
+          <e p="UnitOfWork.cs" t="Include" />
+          <e p="UsuarioPosicaoRepository.cs" t="Include" />
+          <e p="UsuarioRepository.cs" t="Include" />
+        </e>
+        <e p="Types" t="Include">
+          <e p="AlertaMap.cs" t="Include" />
+          <e p="AlertaProvidenciaMap.cs" t="Include" />
+          <e p="CameraLogMap.cs" t="Include" />
+          <e p="CameraMap.cs" t="Include" />
+          <e p="CidadeMap.cs" t="Include" />
+          <e p="DispositivoMap.cs" t="Include" />
+          <e p="EstadoMap.cs" t="Include" />
+          <e p="TipoAlertaMap.cs" t="Include" />
+          <e p="TipoUsuarioMap.cs" t="Include" />
+          <e p="UsuarioMap.cs" t="Include" />
+          <e p="UsuarioPosicaoMap.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Argos.Domain" t="IncludeRecursive">
+        <e p="AlertaProvidenciaRoot" t="Include">
+          <e p="AlertaProvidencia.cs" t="Include" />
+          <e p="AlertaProvidenciaValidator.cs" t="Include" />
+        </e>
+        <e p="AlertaRoot" t="Include">
+          <e p="Alerta.cs" t="Include" />
+          <e p="AlertaValidator.cs" t="Include" />
+        </e>
+        <e p="Argos.Domain.csproj" t="IncludeRecursive" />
+        <e p="BaseRoot" t="Include">
+          <e p="Constants.cs" t="Include" />
+          <e p="Entity.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CameraLogRoot" t="Include">
+          <e p="CameraLog.cs" t="Include" />
+          <e p="CameraLogValidator.cs" t="Include" />
+        </e>
+        <e p="CameraRoot" t="Include">
+          <e p="Camera.cs" t="Include" />
+          <e p="CameraValidator.cs" t="Include" />
+        </e>
+        <e p="CidadeRoot" t="Include">
+          <e p="Cidade.cs" t="Include" />
+          <e p="CidadeValidator.cs" t="Include" />
+        </e>
+        <e p="DispositivoRoot" t="Include">
+          <e p="Dispositivo.cs" t="Include" />
+          <e p="DispositivoValidator.cs" t="Include" />
+        </e>
+        <e p="EstadoRoot" t="Include">
+          <e p="Estado.cs" t="Include" />
+          <e p="EstadoValidator.cs" t="Include" />
+        </e>
+        <e p="Interfaces" t="Include">
+          <e p="RepositoryInterfaces" t="Include">
+            <e p="IAlertaProvidenciaRepository.cs" t="Include" />
+            <e p="IAlertaRepository.cs" t="Include" />
+            <e p="IBaseRepository.cs" t="Include" />
+            <e p="ICameraLogRepository.cs" t="Include" />
+            <e p="ICameraRepository.cs" t="Include" />
+            <e p="ICidadeRepository.cs" t="Include" />
+            <e p="IDispositivoRepository.cs" t="Include" />
+            <e p="IEstadoRepository.cs" t="Include" />
+            <e p="ITipoAlertaRepository.cs" t="Include" />
+            <e p="ITipoUsuarioRepository.cs" t="Include" />
+            <e p="IUnitOfWork.cs" t="Include" />
+            <e p="IUsuarioPosicaoRepository.cs" t="Include" />
+            <e p="IUsuarioRepository.cs" t="Include" />
+          </e>
+          <e p="ServiceInterfaces" t="Include">
+            <e p="IAlertaProvidenciaService.cs" t="Include" />
+            <e p="IAlertaService.cs" t="Include" />
+            <e p="IBaseService.cs" t="Include" />
+            <e p="ICameraLogService.cs" t="Include" />
+            <e p="ICameraService.cs" t="Include" />
+            <e p="ICidadeService.cs" t="Include" />
+            <e p="IDispositivoService.cs" t="Include" />
+            <e p="IEstadoService.cs" t="Include" />
+            <e p="IFileService.cs" t="Include" />
+            <e p="ITipoAlertaService.cs" t="Include" />
+            <e p="ITipoUsuarioService.cs" t="Include" />
+            <e p="IUsuarioPosicaoService.cs" t="Include" />
+            <e p="IUsuarioService.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Argos.Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TipoAlertaRoot" t="Include">
+          <e p="TipoAlerta.cs" t="Include" />
+          <e p="TipoAlertaValidator.cs" t="Include" />
+        </e>
+        <e p="TipoUsuarioRoot" t="Include">
+          <e p="TipoUsuario.cs" t="Include" />
+          <e p="TipoUsuarioValidator.cs" t="Include" />
+        </e>
+        <e p="UsuarioPosicaoRoot" t="Include">
+          <e p="UsuarioPosicao.cs" t="Include" />
+          <e p="UsuarioPosicaoValidator.cs" t="Include" />
+        </e>
+        <e p="UsuarioRoot" t="Include">
+          <e p="Usuario.cs" t="Include" />
+          <e p="UsuarioModel.cs" t="Include" />
+          <e p="UsuarioValidator.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Argos.Service" t="IncludeRecursive">
+        <e p="Argos.Service.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Argos.Service.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Services" t="Include">
+          <e p="AlertaProvidenciaService.cs" t="Include" />
+          <e p="AlertaService.cs" t="Include" />
+          <e p="BaseService.cs" t="Include" />
+          <e p="CameraLogService.cs" t="Include" />
+          <e p="CameraService.cs" t="Include" />
+          <e p="CidadeService.cs" t="Include" />
+          <e p="DispositivoService.cs" t="Include" />
+          <e p="EstadoService.cs" t="Include" />
+          <e p="FileService.cs" t="Include" />
+          <e p="TipoAlertaService.cs" t="Include" />
+          <e p="TipoUsuarioService.cs" t="Include" />
+          <e p="UsuarioPosicaoService.cs" t="Include" />
+          <e p="UsuarioService.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Argos.WebApi" t="IncludeRecursive">
+        <e p=".env.local" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="Argos.WebApi.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="AbstractController.cs" t="Include" />
+          <e p="AlertaController.cs" t="Include" />
+          <e p="AlertaProvidenciaController.cs" t="Include" />
+          <e p="AuthenticationController.cs" t="Include" />
+          <e p="CameraController.cs" t="Include" />
+          <e p="CameraLogController.cs" t="Include" />
+          <e p="CidadeController.cs" t="Include" />
+          <e p="DispositivoController.cs" t="Include" />
+          <e p="EstadoController.cs" t="Include" />
+          <e p="FileController.cs" t="Include" />
+          <e p="TipoAlertaController.cs" t="Include" />
+          <e p="TipoUsuarioController.cs" t="Include" />
+          <e p="UsuarioController.cs" t="Include" />
+          <e p="UsuarioPosicaoController.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Argos.WebApi.AssemblyInfo.cs" t="Include" />
+              <e p="Argos.WebApi.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="ViewModels" t="Include">
+          <e p="AlertaProvidenciaViewModel.cs" t="Include" />
+          <e p="AlertaViewModel.cs" t="Include" />
+          <e p="CameraLogViewModel.cs" t="Include" />
+          <e p="CameraViewModel.cs" t="Include" />
+          <e p="CidadeViewModel.cs" t="Include" />
+          <e p="DispositivoViewModel.cs" t="Include" />
+          <e p="EntityViewModel.cs" t="Include" />
+          <e p="EstadoViewModel.cs" t="Include" />
+          <e p="Posicao.cs" t="Include" />
+          <e p="TipoAlertaViewModel.cs" t="Include" />
+          <e p="TipoUsuarioViewModel.cs" t="Include" />
+          <e p="UsuarioPosicaoViewModel.cs" t="Include" />
+          <e p="UsuarioViewModel.cs" t="Include" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

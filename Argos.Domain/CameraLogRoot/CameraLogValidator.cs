@@ -17,6 +17,7 @@ namespace Argos.Domain.CameraLogRoot
             RuleFor(i => i.Data)
                 .NotNull().WithMessage("O campo 'Data' não pode ser nulo.")
                 .NotEmpty().WithMessage("O campo 'Data' não pode ficar em branco.");
+            RuleFor(i => i.Status);
 
             RuleFor(i => i.CriadoEm);
 

@@ -7,6 +7,7 @@ namespace Argos.Domain.UsuarioRoot
         public UsuarioValidator()
         {
             RuleFor(i => i.CriadoEm);
+            RuleFor(i => i.IsRevoked);
 
             RuleFor(i => i.Email)
                 .NotNull().WithMessage("O campo 'Email' não pode ser nulo.")

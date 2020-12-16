@@ -5,6 +5,7 @@ using Argos.Domain.DispositivoRoot;
 using Argos.Domain.Interfaces.ServiceInterfaces;
 using Argos.Domain.Interfaces.RepositoryInterfaces;
 using Argos.WebApi.ViewModels;
+using Microsoft.EntityFrameworkCore;
 
 namespace Argos.WebApi.Controllers
 {
@@ -30,7 +31,8 @@ namespace Argos.WebApi.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllAsync()
         {
-            return await base._GetAllAsync();
+            var data = await this.Service.GetAllAsync(include: i => i.Include(j => j.Usuario));
+            return HttpMessageOk(data);
         }
 
         [HttpGet("{id}")]

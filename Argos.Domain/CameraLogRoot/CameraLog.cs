@@ -15,6 +15,7 @@ namespace Argos.Domain.CameraLogRoot
         public long CameraId { get; set; }
         public DateTime Data { get; set; }
         public DateTime CriadoEm { get; set; }
+        public int Status { get; set; }
 
     }
 }

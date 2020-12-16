@@ -8457,11 +8457,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Service\\Argos.Service.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.Service\\Argos.Service.csproj",
       "projectName": "Argos.Service",
-      "projectPath": "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Service\\Argos.Service.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.Service\\Argos.Service.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Service\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8480,11 +8480,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Authentication\\Argos.Authentication.csproj": {
-              "projectPath": "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Authentication\\Argos.Authentication.csproj"
+            "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.Authentication\\Argos.Authentication.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.Authentication\\Argos.Authentication.csproj"
             },
-            "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Data\\Argos.Data.csproj": {
-              "projectPath": "C:\\Users\\User\\Documents\\github\\Argos\\ArgosApi\\Argos.Data\\Argos.Data.csproj"
+            "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.Data\\Argos.Data.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\github\\Argos-api\\Argos.Data\\Argos.Data.csproj"
             }
           }
         }
