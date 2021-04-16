@@ -120,9 +120,16 @@ namespace Argos.WebApi.Controllers
         public async Task<IActionResult> UpdateLocateAsync(long id)
         {
             var item = await this.Service.GetByIdAsync(id);
-            item.Status = 1;
-            item.UsuarioId = TokenGenerator.GetId(this.GetTokenDefault());
-            return await base._UpdateAsync(id, item);
+            if(item.Status != 1){
+                item.Status = 1;
+                item.UsuarioId = TokenGenerator.GetId(this.GetTokenDefault());
+                return await base._UpdateAsync(id, item);
+            }
+            else
+            {
+                return base.BadRequest();
+            }
+
         }
 
         [HttpDelete("{id}")]

@@ -55,21 +55,22 @@ namespace Argos.Data.Types
                 .IsRequired()
                 .HasMaxLength(100)
                 .HasColumnName("nome");
+            
             builder.Property(i => i.TokenFirebase)
                 .HasMaxLength(300)
                 .HasColumnName("token_firebase");
+            
             builder.Property(i => i.IsRevoked)
                 .HasColumnName("is_revoked");
-
-/**            builder.Property(i => i.Senha)
-                .IsRequired()
-                .HasMaxLength(200)
-                .HasColumnName("senha");*/
 
             builder.Property(i => i.PasswordHash)
                 .IsRequired()
                 .HasMaxLength(100)
                 .HasColumnName("password_hash");
+
+            builder.HasMany(i => i.Alertas)
+                .WithOne(i => i.Usuario)
+                .HasForeignKey(i => i.UsuarioId);
 
         }
     }

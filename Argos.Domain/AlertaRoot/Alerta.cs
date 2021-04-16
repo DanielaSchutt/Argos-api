@@ -22,7 +22,7 @@ namespace Argos.Domain.AlertaRoot
         public string Area { get; set; }
         public int Status { get; set; }
         
-        public int? UsuarioId { get; set; }
+        public long? UsuarioId { get; set; }
         public Usuario Usuario { get; set; }
 
     }

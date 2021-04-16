@@ -12,7 +12,6 @@ namespace Argos.WebApi.Controllers
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>()
-                .UseUrls("http://localhost:9016/");
+                .UseStartup<Startup>();
     }
 }
